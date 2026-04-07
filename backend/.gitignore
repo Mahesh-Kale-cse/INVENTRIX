@@ -1,0 +1,23 @@
+# ✅ CRITICAL — never commit real credentials to git
+.env
+application.properties
+
+# Build output
+target/
+*.jar
+*.war
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.eclipse
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

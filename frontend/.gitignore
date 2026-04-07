@@ -1,0 +1,30 @@
+# credentials
+.env
+.env.local
+application.properties
+
+# backend build
+target/
+*.jar
+*.war
+*.class
+
+# frontend build
+node_modules/
+build/
+dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.eclipse
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+logs/
+npm-debug.log*
